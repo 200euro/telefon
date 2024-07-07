@@ -1,0 +1,74 @@
+
+.wrap{
+   display: flex;
+   gap: 30px;
+   @media (max-width: 700px)
+   { 
+      flex-direction: column  ;
+      align-items: center;
+   }
+}
+
+.box1{
+   width: 350px;
+   height: 450px;
+   border: solid pink;
+  
+
+}
+.city{
+   width: 350px;
+   height: 150px;
+ 
+}
+.like{
+   width: 30px;
+
+}
+.data{
+   height: 30px;
+}
+.picture{
+   display: flex;
+   justify-content: center;
+}
+.box__a{
+display: flex;
+gap: 30px;
+align-items: center;
+}
+.boxmini{
+   text-align: center;
+   button{
+      background-color: rgb(255, 105, 105);
+    border: none;
+    height: 50px;
+   }
+}
+.box2{
+   width: 350px;
+   height: 450px;
+   border: solid pink;
+  
+
+}
+.city2{
+   width: 350px;
+   height: 150px;
+}
+.boxmini2{
+   text-align: center;
+   button{
+      background-color: rgb(255, 105, 105);
+    border: none;
+    height: 50px;
+   }
+}
+
+.box9{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+gap: 30px;
+}
